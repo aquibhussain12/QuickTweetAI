@@ -9,4 +9,4 @@ Language: Python
 AI Model: text-davinci-003
 
 Connect with me:<a href="https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09">🐦Twitter</a>
-I want to give a shoutout to the amazing tutorial on [FreeCodeCamp]([link-to-tutorial](https://www.freecodecamp.org/news/create-an-ai-tweet-generator-openai-langchain/)) that inspired and guided me in creating QuickTweetAI. The step-by-step instructions were invaluable in shaping this project. 🙏🚀
+I want to give a shoutout to the amazing tutorial on [FreeCodeCamp](https://www.freecodecamp.org/news/create-an-ai-tweet-generator-openai-langchain/) that inspired and guided me in creating QuickTweetAI. The step-by-step instructions were invaluable in shaping this project. 🙏🚀
