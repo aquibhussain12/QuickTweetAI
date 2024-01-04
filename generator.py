@@ -10,7 +10,7 @@ from langchain.memory import ConversationBufferMemory
 
 
 
-os.environ['OPENAI_API_KEY'] = apikey
+apikey = st.secrets["API_KEY"]
 # App UI framework
 favicon=Image.open("assets/favicon.ico")
 st.set_page_config(
