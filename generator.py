@@ -1,5 +1,4 @@
 import os
-from apikey import apikey
 from PIL import Image
 
 import streamlit as st
