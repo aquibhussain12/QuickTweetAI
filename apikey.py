@@ -1,1 +1,4 @@
-apikey="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"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+apikey = os.getenv("API_KEY")

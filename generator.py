@@ -63,7 +63,7 @@ if keywords:
         
     
 footer_html = """
-    <div style=" padding: 10px; position: fixed; bottom: 0; width: 100%; text-align: center justify-content:center;">
+    <div style=" padding: 10px; position:fixed; bottom: 0; width: 100%; text-align: center justify-content:center;">
         <p>Built with ❤️ by Aquib Hussain---- <a href="https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09">𝕏</a></p>
       
     </div>
