@@ -5,3 +5,4 @@ langsmith==0.0.77
 Pillow==10.2.0
 streamlit==1.29.0
 openai==0.28.0
+toml==0.10.2
