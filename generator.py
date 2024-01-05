@@ -38,7 +38,7 @@ tweet_template = PromptTemplate(
 title_memory = ConversationBufferMemory(input_key='keywords', memory_key='chat_history')
 tweet_memory = ConversationBufferMemory(input_key='keywords', memory_key='chat_history')
 # Llms
-llm = OpenAI(model_name="text-davinci-003", temperature=0.9)
+llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
 title_chain = LLMChain(llm=llm, prompt=title_template, verbose=True, output_key='title', memory=title_memory)
 tweet_chain = LLMChain(llm=llm, prompt=tweet_template, verbose=True, output_key='script', memory=tweet_memory)
 
