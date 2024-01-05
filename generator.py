@@ -19,16 +19,7 @@ st.set_page_config(
 )
 st.title('QuickTweetAI- Your AI Tweet Generator')
 st.subheader('🌟 Welcome to QuickTweetAI: Your Personal AI Tweet Generator! 🌟\nCrafting the perfect tweet just got easier! Introducing QuickTweetAI, your go-to destination for effortless and engaging tweets.\nSimply input your keywords, and watch as our advanced AI transforms them into attention-grabbing, share-worthy tweets tailored to your style.')
-st.header("How to Use QuickTweet:")
-st.write("To generate a tweet, follow these simple steps:")
 
-# Display keywords and generated tweet
-st.subheader("Step 1: Enter Keywords")
-st.write("Specify keywords related to your tweet. For example: vibe, winter, cold, Kashmir")
-
-st.subheader("Step 2: Generated Tweet")
-st.write("Your generated tweet will appear below based on the provided keywords.")
-st.code("The winter chill in Kashmir is the perfect setting to enjoy cozy vibes and a cup of #HotChocolate! 🍵 #cozyvibes #wintercold #Kashmir")
 keywords = st.text_input('Enter keywords (comma-separated): ')
 prompt_template = f'generate a tweet on these keywords: {keywords}' if keywords else ''
 
@@ -68,7 +59,16 @@ if keywords:
      st.info(history)
     if not history:
         st.info("No tweet history yet.")
-        
+st.header("How to Use QuickTweet:")
+st.write("To generate a tweet, follow these simple steps:")
+
+# Display keywords and generated tweet
+st.subheader("Step 1: Enter Keywords")
+st.write("Specify keywords related to your tweet. For example: vibe, winter, cold, Kashmir")
+
+st.subheader("Step 2: Generated Tweet")
+st.write("Your generated tweet will appear below based on the provided keywords.")
+st.code("The winter chill in Kashmir is the perfect setting to enjoy cozy vibes and a cup of #HotChocolate! 🍵 #cozyvibes #wintercold #Kashmir")        
     
 footer_html = """
     <div style=" padding: 10px; position:fixed; bottom: 0; width: 100%; text-align: center justify-content:center;">
