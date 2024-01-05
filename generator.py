@@ -20,7 +20,7 @@ st.set_page_config(
 st.title('QuickTweetAI- Your AI Tweet Generator')
 st.subheader('🌟 Welcome to QuickTweetAI: Your Personal AI Tweet Generator! 🌟\nCrafting the perfect tweet just got easier! Introducing QuickTweetAI, your go-to destination for effortless and engaging tweets.\nSimply input your keywords, and watch as our advanced AI transforms them into attention-grabbing, share-worthy tweets tailored to your style.')
 
-keywords = st.text_input('Enter keywords (comma-separated): ')
+keywords = st.text_input('Enter keywords (comma-separated): ','Enter Keywords')
 prompt_template = f'generate a tweet on these keywords: {keywords}' if keywords else ''
 
 # Prompt templates
