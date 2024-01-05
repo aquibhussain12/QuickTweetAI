@@ -73,5 +73,5 @@ st.code("The winter chill in Kashmir is the perfect setting to enjoy cozy vibes 
 footer_html = """
     <div style=" padding: 10px; bottom: 0; width: 100%; text-align: center justify-content:center;">
         <p>Built with ❤️ by Aquib Hussain---- <a href="https://twitter.com/AquibG1?t=UQlKWtQKEqYneDmph_FHcQ&s=09">𝕏</a></p>
-
+"""
 st.markdown(footer_html, unsafe_allow_html=True)
